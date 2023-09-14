@@ -383,7 +383,7 @@ class Group extends EventEmitter {
   // Handle CONNECT, used by WebSockets and https when accessing .localhost domains
   handleConnect(req, socket, head) {
     if (req.headers.host) {
-      const { host } = req.headers
+      const host = req.url
       const { id, hostname, port } = this.parseHost(host)
 
       // If https make socket go through https proxy on 2001
