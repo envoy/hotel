@@ -1,6 +1,6 @@
 {
   "name": "@envoy/hotel",
-  "version": "0.8.19",
+  "version": "0.8.20",
   "description": "Local domains for everyone and more! ",
   "main": "lib",
   "bin": "lib/cli/bin.js",
